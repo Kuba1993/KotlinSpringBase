@@ -1,0 +1,8 @@
+2022-02-09 01:56:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "CREATE TABLE IF NOT EXISTS MESSAGES ([*]"; erwartet "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS MESSAGES ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS messages ( [42001-200]
+2022-02-09 02:02:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "CREATE TABLE IF NOT EXISTS 'messages'[*] ("; erwartet "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS 'messages'[*] ("; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS 'messages' ( [42001-200]
